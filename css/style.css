@@ -16,14 +16,14 @@ body {
   }
   
   a {
-    color: #007bff;
+    color: #2B59FF;
     transition: 0.5s;
   }
   
   a:hover,
   a:active,
   a:focus {
-    color: #0b6bd3;
+    color: #00C9FF;
     outline: none;
     text-decoration: none;
   }
@@ -52,7 +52,7 @@ body {
   .back-to-top {
     position: fixed;
     display: none;
-    background: #007bff;
+    background: #2B59FF;
     color: #fff;
     width: 44px;
     height: 44px;
@@ -112,7 +112,7 @@ body {
     top: calc(50% - 30px);
     left: calc(50% - 30px);
     border: 6px solid #f2f2f2;
-    border-top: 6px solid #007bff;
+    border-top: 6px solid #2B59FF;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -213,7 +213,7 @@ body {
     z-index: 0;
   }
   #home:before {
-    background: #028cff;
+    background: #00C9FF;
     top: 0;
     left: 0;
     right: 0;
@@ -224,7 +224,7 @@ body {
     width: 250%;
     left: 50%;
     height: 810px;
-    background: #3385fe;
+    background: #00C9FF;
     border-radius: 50%;
     transform: translateX(-50%);
   }
@@ -267,8 +267,8 @@ body {
   }
   
   #home .intro-info .btn-get-started {
-    background: #007bff;
-    border: 2px solid #007bff;
+    background: #2B59FF;
+    border: 2px solid #2B59FF;
     color: #fff;
   }
   
@@ -283,8 +283,8 @@ body {
   }
   
   #home .intro-info .btn-services:hover {
-    background: #007bff;
-    border-color: #007bff;
+    background: #2B59FF;
+    border-color: #2B59FF;
     color: #fff;
   }
   
@@ -326,7 +326,7 @@ body {
   .main-nav a:hover,
   .main-nav .active > a,
   .main-nav li:hover > a {
-    color: #007bff;
+    color: #2B59FF;
     text-decoration: none;
   }
   
@@ -364,7 +364,7 @@ body {
   .main-nav .drop-down ul a:hover,
   .main-nav .drop-down ul .active > a,
   .main-nav .drop-down ul li:hover > a {
-    color: #007bff;
+    color: #2B59FF;
   }
   
   .main-nav .drop-down > a:after {
@@ -405,7 +405,7 @@ body {
     left: -260px;
     width: 260px;
     padding: 40px 25px;
-    background: #007bff;
+    background: #2B59FF;
     transition: 0.4s;
   }
   
@@ -508,7 +508,7 @@ body {
   
   .section-header h3 {
        font-size: 36px;
-      color: #007bff;
+      color: #2B59FF;
       text-align: center;
       font-weight: 700;
       position: relative;
@@ -534,7 +534,7 @@ body {
   --------------------------------*/
   
   #agencia {
-    background: #fff;
+    background: white;
     padding: 60px 0;
   }
   
@@ -547,7 +547,7 @@ body {
   }
   
   #agencia .about-container .title {
-    color: #333;
+    color: #2B59FF;
     font-weight: 700;
     font-size: 32px;
   }
@@ -589,17 +589,17 @@ body {
     flex-direction: column;
     text-align: center;
     border-radius: 50%;
-    border: 2px solid #007bff;
+    border: 2px solid #2B59FF;
     transition: all 0.3s ease-in-out;
   }
   
   #agencia .about-container .icon-box .icon i {
-    color: #007bff;
+    color: #2B59FF;
     font-size: 24px;
   }
   
   #agencia .about-container .icon-box:hover .icon {
-    background: #007bff;
+    background: #2B59FF;
   }
   
   #agencia .about-container .icon-box:hover .icon i {
@@ -614,7 +614,7 @@ body {
   }
   
   #agencia .about-container .icon-box .title a {
-    color: #283d50;
+    color: #2B59FF;
   }
   
   #agencia .about-container .icon-box .description {
@@ -680,7 +680,7 @@ body {
   }
   
   #servicios .box:hover .title a {
-    color: #007bff;
+    color: #2B59FF;
   }
   
   #servicios .description {
@@ -690,6 +690,66 @@ body {
     margin-bottom: 0;
   }
   
+
+  /* Testimonial Section
+  --------------------------------*/
+  
+  #Testimonial {
+    padding: 60px 0 40px 0;
+    box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  #Testimonial .box {
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 0 10px 40px 10px;
+    background: #fff;
+    box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #Testimonial .box:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+  
+  #Testimonial .icon {
+    position: absolute;
+    left: 10px;
+    
+  }
+  
+  #Testimonial .icon i {
+    font-size: 64px;
+    line-height: 1;
+    transition: 0.5s;
+  }
+  
+  #Testimonial .title {
+    margin-left: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  #Testimonial .title a {
+    color: #111;
+  }
+  
+  #Testimonial .box:hover .title a {
+    color: #2B59FF;
+  }
+  
+  #Testimonial .description {
+    font-size: 14px;
+    margin-left: 40px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+
   #why-us {
     padding: 7% 0;
     background: #2c80f9;
@@ -784,7 +844,7 @@ body {
     padding: 6px 20px;
     font-size: 12px;
     line-height: 20px;
-    color: #007bff;
+    color: #2B59FF;
     border-radius: 50px;
     text-transform: uppercase;
     background: #ecf5ff;
@@ -794,7 +854,7 @@ body {
   
   #portfolio #portfolio-flters li:hover,
   #portfolio #portfolio-flters li.filter-active {
-    background: #007bff;
+    background: #2B59FF;
     color: #fff;
   }
   
@@ -878,7 +938,7 @@ body {
     text-align: center;
     width: 48px;
     height: 48px;
-    background: #007bff;
+    background: #2B59FF;
     border-radius: 50%;
     margin: 10px 4px 0 4px;
   }
@@ -901,7 +961,7 @@ body {
   }
   
   #portfolio .portfolio-item .portfolio-wrap:hover {
-    background: #007bff
+    background: #2B59FF
   }
   
   #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
@@ -963,14 +1023,14 @@ body {
   }
   
   #testimonials .owl-dot.active {
-    background-color: #007bff;
+    background-color: #2B59FF;
   }
   
   /* Team Section
   --------------------------------*/
   
   #equipo {
-    background: #fff;
+    background: #ecf5ff;
     padding: 7% 0;
     box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   }
@@ -1060,6 +1120,7 @@ body {
   #clientes {
     padding:  7% 0;
     box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+    background: white;
   }
   
   #clientes .clients-wrap {
@@ -1120,7 +1181,7 @@ body {
     font-weight: 300;
     letter-spacing: 3px;
     text-transform: uppercase;
-    color: #007bff;
+    color: #2B59FF;
   }
   
   #contacto .contact-about p {
@@ -1138,7 +1199,7 @@ body {
     font-size: 18px;
     display: inline-block;
     background: #fff;
-    color: #007bff;
+    color: #2B59FF;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -1147,11 +1208,11 @@ body {
     width: 36px;
     height: 36px;
     transition: 0.3s;
-    border: 1px solid #007bff;
+    border: 1px solid #2B59FF;
   }
   
   #contacto .social-links a:hover {
-    background: #007bff;
+    background: #2B59FF;
     color: #fff;
   }
   
@@ -1161,7 +1222,7 @@ body {
   
   #contacto .info i {
     font-size: 32px;
-    color: #007bff;
+    color: #2B59FF;
     float: left;
     line-height: 1;
   }
@@ -1173,8 +1234,8 @@ body {
   }
   
   #contacto .form #sendmessage {
-    color: #007bff;
-    border: 1px solid #007bff;
+    color: #2B59FF;
+    border: 1px solid #2B59FF;
     display: none;
     text-align: center;
     padding: 15px;
@@ -1214,7 +1275,7 @@ body {
   }
   
   #contacto .form button[type="button"] {
-    background: #007bff;
+    background: #2B59FF;
     border: 0;
     border-radius: 30px;
     padding: 12px 70px;
@@ -1270,7 +1331,7 @@ body {
   #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #007bff;
+    background: #2B59FF;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -1341,7 +1402,7 @@ body {
   }
   
   #footer .footer-top .footer-newsletter input[type="submit"] {
-    background: #007bff;
+    background: #2B59FF;
     border: 0;
     width: 35%;
     padding: 6px 0;
