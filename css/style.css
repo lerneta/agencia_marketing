@@ -149,7 +149,7 @@ body {
   --------------------------------------------------------------*/
   
   #header {
-    height: 80px;
+    height: 85px;
     transition: all 0.5s;
     z-index: 997;
     transition: all 0.5s;
@@ -160,7 +160,7 @@ body {
   
   #header.header-scrolled,
   #header.header-pages {
-    height: 60px;
+    height: 70px;
     padding: 10px 0;
   }
   
@@ -182,8 +182,7 @@ body {
   
   #header .logo img {
     padding: 0;
-    margin: 7px 0;
-    max-height: 26px;
+    max-height: 50px;
   }
   
   .main-pages {
@@ -213,7 +212,7 @@ body {
     z-index: 0;
   }
   #home:before {
-    background: #00C9FF;
+    background: #2B59FF;
     top: 0;
     left: 0;
     right: 0;
@@ -224,7 +223,7 @@ body {
     width: 250%;
     left: 50%;
     height: 810px;
-    background: #00C9FF;
+    background: #2B59FF;
     border-radius: 50%;
     transform: translateX(-50%);
   }
